@@ -1,0 +1,41 @@
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(221, 182, 7);
+    }
+
+    h1 {
+        background-color: red;
+        color: goldenrod;
+        font-size: xx-large;
+        text-align: center;
+        width: 95%;
+        height: 50px;
+        text-emphasis: bold;
+    }
+    .lead {
+        background-color: red;
+        color: goldenrod;
+        font-size: x-large;
+        text-align: center;
+        width: 95%;
+        height: 60px;
+        text-emphasis: bold;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+ 
