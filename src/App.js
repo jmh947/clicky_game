@@ -11,11 +11,44 @@ class App extends Component {
        score: 0,
        topscore: 0 
     }
-    handleSubmit = id=> {
-     const newImages = this.state.images.sort(()=> Math.random()-0.5)
-      this.setState({
-          images: newImages
-      })
+    handleSubmit = id=> { 
+        let newImages = this.state.images.map(cards => {
+            if(cards.id.toString().includes(id)) {
+                if(cards.clicked) {
+                    this.setState({
+                        score: 0
+                    })
+                } else {
+                    this.setState({
+                        score: this.state.score +1
+                    })
+                    if(this.state.score >= this.state.topscore) {
+                        this.setState({
+                            topscore: this.state.topscore +1
+                        })
+                    } 
+                    cards.clicked = true
+                }
+            }
+            return cards
+        })
+        if(this.state.score === 0) {
+            newImages = newImages.map(cards => {
+                cards.clicked = undefined
+                return cards
+            })
+        }
+        newImages = newImages.sort(()=> {
+            return Math.random() - 0.5
+        })
+
+        this.setState({
+            images: newImages
+        })
+    //  const newImages = this.state.images.sort(()=> Math.random()-0.5)
+    //   this.setState({
+    //       images: newImages
+    //   })
     }
     render(){
         return(
