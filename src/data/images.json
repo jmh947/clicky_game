@@ -1,0 +1,48 @@
+[{
+    "id": 1, 
+    "image": "/images/antman.jpg"
+},
+{
+    "id": 2,
+    "image": "/images/batman.jpg"
+},
+{
+    "id": 3,
+    "image": "/images/captain_america.jpg"
+},
+{
+    "id": 4,
+    "image": "/images/catwoman.jpg"
+},
+{
+    "id": 5,
+    "image": "/images/falcon.jpg"
+},
+{
+    "id": 6,
+    "image": "/images/flash.png"
+},
+{
+    "id": 7,
+    "image": "/images/green_lantern.jpg"
+},
+{
+    "id": 8,
+    "image": "/images/hulk.jpg"
+},
+{
+    "id": 9,
+    "image": "/images/iron_man.jpg"
+},
+{
+    "id": 10,
+    "image": "/images/spiderman.jpg"
+},
+{
+    "id": 11,
+    "image": "/images/superman.jpg"
+},
+{
+    "id": 12,
+    "image": "/images/wonder_woman.jpg"
+}]

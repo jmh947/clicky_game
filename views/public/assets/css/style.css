@@ -5,24 +5,32 @@
 
     body {
         background-color: rgb(221, 182, 7);
+        padding-top: 0%;
+    }
+    .navbar {
+        background: red;
+        min-height: 70px;
+        position: top;
+        width: 100%;
+        color: #fff;
+        font-size: xx-large;
+        z-index: 0;
+       
     }
 
-    h1 {
-        background-color: red;
-        color: goldenrod;
-        font-size: xx-large;
-        text-align: center;
-        width: 95%;
-        height: 50px;
-        text-emphasis: bold;
+    button{
+        float: right;
+        height: 120px;
+        width: 160px;
+        margin: 10px, 5px, 40px, 0px;
     }
-    .lead {
+    .jumbotron-fluid {
         background-color: red;
-        color: goldenrod;
+        color: #fff;
         font-size: x-large;
         text-align: center;
         width: 95%;
-        height: 60px;
+        height: 45%;
         text-emphasis: bold;
     }
     
