@@ -1,8 +1,8 @@
 {
-  "name": "clicky_game2",
+  "name": "clicky_game",
   "version": "0.1.0",
   "private": true,
-
+  "homepage": "https://jmh947.github.io/clicky_game",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
