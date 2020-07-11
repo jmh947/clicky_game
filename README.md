@@ -1,3 +1,20 @@
+# Clicky Game	This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---	
+### Overview	
+This app is a memory game with React. There are 12 images of superheroes but you can not pick the same one twice.  It keeps track of your high score and of course the highest you can get is 12 points. Good luck!	
+
+
+---	## Available Scripts
+https://jmh947.github.io/clicky_game/.
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
